@@ -33,8 +33,11 @@ Para correr las pruebas basta con escribir el comando 'pytest tests/' en la term
 ## Estructura del proyecto
 
 `configuration.py`: Contiene URL y rutas necesarias que serán utilizadas por las funciones del archivo "sender_stand_request.py".
+
 `data.py`: Contiene los datos necesarios que serán importados por las funciones para ser utilizados en las pruebas.
+
 `sender_stand_request.py`: Contiene la función que crea al usuario con base a los datos en "data.py" y la función que corrobora que se ha creado correctamente.
+
 `create_user_test.py`: Contiene las funciones que actualizan los datos de "data.py", funciones que confirman que la respuesta de una prueba sea positiva o negativa (según sea el caso) y funciones que dan estructura a la suite de pruebas automatizadas (10).
 
 ## Lista de comprobación
